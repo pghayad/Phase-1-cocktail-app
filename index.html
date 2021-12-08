@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cocktail App By Paul Ghayad</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Cocktail App</h1>
+  <p>Search for your favorite cocktails and add them to your list!</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Drink List</h3>
+      <p id="cocktail"></p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Add Drink</h3>
+      <p id="ing">Add A Drink to the list on the left</p>
+      <div>
+          <form id="drink-form">
+              <input id="drinkInput" type="text"/>
+              <input type="submit" value="Add Drink"/>
+          </form>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <h3>Search Drink</h3>        
+      <p>Search for a Drink</p>
+      <div>
+        <form id="search-form">
+            <input id="searchInput" type="text"/>
+            <input type="submit" value="Search Drink"/>
+        </form>
+        <ul id="results">
+
+        </ul>
+    </div>
+    </div>
+  </div>
+  <div class="row">
+    <!-- <div class="col-sm-4">
+      <h3>Update Drink</h3>
+      <form id="update-form">
+        <input type="text" id="newDrink" placeholder="Enter New Drink Name">
+        <input type="submit" value="Update Drink Name">
+      </form>
+    </div> -->
+   
+  </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "name": "Beer",
+      "likes": 6,
+      "id": 4
+    },
+    {
+      "name": "zaza",
+      "likes": 7,
+      "id": 8
+    },
+    {
+      "name": "Manhattan",
+      "likes": 2,
+      "id": 10
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
